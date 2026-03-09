@@ -1,11 +1,11 @@
-name = "doh-cache"
+name = "dot"
 main = "src/index.ts"
 compatibility_date = "2025-05-05"
 
-route = "https://dns.paesa.es/dns-query"
+route = "https://dot.yarn.qzz.io/dns-query"
 
 [vars]
-DOH_ENDPOINT = "dns.paesa.es/dns-query"
+DOH_ENDPOINT = "dot.yarn.qzz.io/dns-query"
 
 [placement]
 mode = "smart"
